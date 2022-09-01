@@ -1,0 +1,166 @@
+.navbar-nav-left {
+  margin-right: auto;
+}
+.navbar-nav-right {
+  margin-left: auto;
+}
+.nav-item {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+nav ul li {
+  display: flex;
+  height: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+.nav-font {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+.nav-color {
+  color: SlateBlue;
+}
+.navbar-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: auto;
+}
+.sidebar li {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  margin-top: 25px;
+}
+.active {
+  background-color: SlateBlue !important;
+}
+.overview-container {
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-image: url("../media/bg-home.png");
+  width: 100%;
+  padding: 20px;
+  border: none;
+}
+.overview-header-font {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.overview-light-font {
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+.row > * {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1px;
+}
+.data-container {
+  padding: 20px;
+}
+.data-font {
+  color: gray;
+}
+.data-heading-font {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.fluid-container {
+  height: 100%;
+}
+.data-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control {
+  background-color: transparent;
+}
+
+.bg-white-icons-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.mini-cards {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+}
+.card-heading {
+  color: SlateBlue;
+  font-size: 18px;
+}
+.card-percentages {
+  font-size: 16px;
+}
+.negative {
+  color: red;
+}
+.card-statistics-info {
+  font-size: 16px;
+  color: SlateBlue;
+  font-weight: 800;
+}
+.card-statistics-number {
+  color: rgb(58, 58, 199);
+  font-size: 24px;
+}
+.card-statics-container {
+  display: flex;
+  justify-content: space-between;
+}
+.card-data-container {
+  display: flex;
+}
+.card-data-container .data-font {
+  margin-right: 15px;
+}
+.blue-color {
+  color: lightskyblue;
+}
+.green-color {
+  color: lightgreen;
+}
+.orange-color {
+  color: lightcoral;
+}
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+}
+.card-heading {
+  font-weight: bold;
+}
+.card-info {
+  color: black;
+  margin-left: 15px;
+}
+.fa-outdent {
+  color: black;
+}
+.form-control {
+  height: 25px;
+  width: 250px;
+}

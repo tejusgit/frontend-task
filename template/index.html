@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Frontend Task</title>
+
+  </head>
+  <body>
+    <!-- Creating a navigation bar using the
+    .navbar class of bootstrap -->
+    <nav class="navbar navbar-expand-sm bg-white shadow-sm bg-white rounded">
+      <ul class="navbar-nav navbar-nav-left">
+        <li class="nav-item">
+          <img src="../media/logo.png" alt="Logo"/>
+        </li>
+        <li class="nav-item">
+          <i class="fa fa-outdent fa-lg icons" aria-hidden="true"></i>
+        </li>
+        <li class="nav-item">
+          <span class="nav-font">Platform Switching</span>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-nav-right">
+        <li class="nav-item">
+          <i class="fa fa-bell fa-lg icons" aria-hidden="true"></i></li>
+        <li class="nav-item">
+          <span class="nav-color">Hello, <span class="nav-font">ALLEN</span></span></div>
+        </li>
+        <li class="nav-item">
+          <img class = "avatar" src="../media/avatar.png" alt="avtar" />
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-outline-secondary"> <span class="nav-color">New Project </span><i class="fa fa-plus-circle icons" aria-hidden="true"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="fluid-container">
+      <div class="row">      
+        <div class="col-sm-3 col-md-1">
+          <nav class="navbar bg-white sidebar bg-white ">
+            <ul class="navbar-nav navbar-sidebar">
+              <li class="nav-item active">
+                <img src="../media/icon1.png" alt="Logo"/>
+              </li>
+              <li class="nav-item">
+                <img src="../media/icon2.png" alt="Logo"/>
+              </li>
+              <li class="nav-item">
+                <img src="../media/icon3.png" alt="Logo"/>
+              </li>
+              <li class="nav-item">
+                <img src="../media/icon4.png" alt="Logo"/>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-11 col-sm-9 bg-light">
+          <div class="overview-container">
+            <p class="overview-header-font">Views Overview <span class="overview-light-font"> All platform data Volume</span></p>
+            <div class="form-container">
+              <!--<form>
+                <div class="row">
+                  <div class="col-7">
+                    <input type="text" class="form-control" placeholder="Enter Keyword">
+                  </div>
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="From">
+                  </div>
+                  <div class="col">
+                    <input type="date" class="form-control" placeholder="To">
+                  </div>
+                </div>
+              </form>-->
+            </div>
+          </div> 
+          <div class="data-container">
+            <div class="data-container-header">
+              <div>
+                <p class="data-font data-heading-font">
+                  Program traffic tracking
+                </p>
+              </div>
+              <div class="d-flex">
+                <p class="data-font">Refresh </p>
+                <div class="bg-white-icons-container">
+                  <i class="fa fa-refresh icons" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row p-3 pt-0 card-stats">
+              <div class="col-6 col-md-4">
+                <div class="mini-cards shadow-sm">
+                  <p class="card-heading">Share times</p>
+                  <div class="card-data-container">
+                    <p class="data-font">Ring ratio <span class="card-percentages negative">60.59%</span></p>
+                    <p class="data-font">Year on year <span class="card-percentages negative">58.93%</span></p>
+                  </div>
+                  <div class="card-statics-container">
+                    <div>
+                      <p class="card-statistics-info">today</p>
+                      <p class="card-statistics-number blue-color"><strong>32,021</strong></p>
+                    </div>
+                    <div >
+                      <img src="../media/sharetimes.png" alt="sharetimes"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="mini-cards shadow-sm">
+                  <p class="card-heading">registration success</p>
+                  <div class="card-data-container">
+                    <p class="data-font">Ring ratio <span class="card-percentages negative">60%</span></p>
+                    <p class="data-font">Year on year <span class="card-percentages negative">68.63%</span></p>
+                  </div>
+                  <div class="card-statics-container">
+                    <div>
+                      <p class="card-statistics-info">today</p>
+                      <p class="card-statistics-number green-color"><strong>429</strong></p>
+                    </div>
+                    <div >
+                      <img src="../media/registrationsuccess.png" alt="registrationsuccess"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <div class="mini-cards shadow-sm">
+                  <p class="card-heading">Sharing success rate</p>
+                  <div class="card-data-container">
+                    <p class="data-font">Ring ratio <span class="card-percentages negative">60.59%</span></p>
+                    <p class="data-font">Year on year <span class="card-percentages negative">58.93%</span></p>
+                  </div>
+                  <div class="card-statics-container">
+                    <div>
+                      <p class="card-statistics-info">today</p>
+                      <p class="card-statistics-number orange-color"><strong>100%</strong></p>
+                    </div>
+                    <div >
+                      <img src="../media/successrate.png" alt="successrate"/>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+
+
+            <div class="row p-3 pt-0 card-stats">
+              <div class="col-6 col-md-4">
+                <div class="mini-cards shadow-sm">
+                  <div class="card-statics-container">
+                    <div>
+                    <p class="card-heading">Channel user sharing level</p>
+                    <p class="data-font">2019-06-13 - 2019-06-19 | Last 7 days</p>
+                  </div>
+                  <div>
+                    <p class="card-statistics-info">total</p>
+                  </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-12 col-md-8">
+                <div class="mini-cards shadow-sm">
+                  <div class="card-statics-container">
+                    <div>
+                    <p class="card-heading">Channel users stay 7 days</p>
+                    <p class="data-font">2019-06-13 - 2019-06-19 | Last 7 days</p>
+                  </div>
+                  <div>
+                    <p class="card-statistics-info">Variety<span class="card-info">Trend</span></p>
+                   
+                  </div>
+                  </div><div class="d-flex flex-column justify-content-center">
+                  <img src="../media/channel7days.png"/>
+                  <img src="../media/channelbar.png"/></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
